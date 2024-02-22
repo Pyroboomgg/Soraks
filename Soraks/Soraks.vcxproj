@@ -160,6 +160,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Soraks\Applcation.cpp" />
+    <ClCompile Include="Soraks\GameInstance.cpp" />
+    <ClCompile Include="Soraks\Screen.cpp" />
+    <ClCompile Include="Soraks\Utilities\Config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soraks\Applcation.h" />
+    <ClInclude Include="Soraks\GameInstance.h" />
+    <ClInclude Include="Soraks\Screen.h" />
+    <ClInclude Include="Soraks\Utilities\Config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

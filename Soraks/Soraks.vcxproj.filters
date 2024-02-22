@@ -22,10 +22,42 @@
     <Filter Include="Soraks\Source Files">
       <UniqueIdentifier>{6ed7d7ad-9962-4d6f-ab1b-1e8df7f67dd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Soraks\Header Files\Utilities">
+      <UniqueIdentifier>{fe720e27-b200-4787-b22a-2ce323960996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Soraks\Source Files\Utilities">
+      <UniqueIdentifier>{3d7f1f1f-79a6-4df8-86d1-814b2e481134}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Soraks\Applcation.cpp">
+      <Filter>Soraks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Soraks\Screen.cpp">
+      <Filter>Soraks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Soraks\GameInstance.cpp">
+      <Filter>Soraks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Soraks\Utilities\Config.cpp">
+      <Filter>Soraks\Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soraks\Applcation.h">
+      <Filter>Soraks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soraks\Screen.h">
+      <Filter>Soraks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soraks\GameInstance.h">
+      <Filter>Soraks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Soraks\Utilities\Config.h">
+      <Filter>Soraks\Header Files\Utilities</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
